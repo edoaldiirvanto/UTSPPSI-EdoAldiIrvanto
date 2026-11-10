@@ -327,7 +327,7 @@ async function generateSecurityAuditReport() {
   });
 
   const buffer = await Packer.toBuffer(doc);
-  fs.writeFileSync('D:\\Domii\\UTSPPSI\\Laporan_Audit_Security_RoadCare.docx', buffer);
+  fs.writeFileSync('Laporan_Audit_Security_RoadCare.docx', buffer);
   console.log('Security Audit DOCX report successfully generated!');
 }
 

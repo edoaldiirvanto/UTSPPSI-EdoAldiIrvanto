@@ -321,7 +321,7 @@ async function generateReport() {
   });
 
   const buffer = await Packer.toBuffer(doc);
-  fs.writeFileSync('D:\\Domii\\UTSPPSI\\Laporan_Testing_dan_Debugging_RoadCare.docx', buffer);
+  fs.writeFileSync('Laporan_Testing_dan_Debugging_RoadCare.docx', buffer);
   console.log('DOCX report successfully generated!');
 }
 

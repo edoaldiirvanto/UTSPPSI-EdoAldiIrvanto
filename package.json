@@ -1,5 +1,13 @@
 {
+  "name": "roadcare-system-root",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix roadcare-app run build",
+    "dev": "npm --prefix roadcare-app run dev",
+    "preview": "npm --prefix roadcare-app run preview"
+  },
   "dependencies": {
     "docx": "^9.15.3"
   }
 }
+
